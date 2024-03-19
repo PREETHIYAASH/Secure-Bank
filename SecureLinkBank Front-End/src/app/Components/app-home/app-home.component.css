@@ -1,0 +1,65 @@
+img {
+    height: calc(100vh - 76px);
+    width: 100%;
+}
+
+/* h1 replaced with nameheader header */
+.nameheader {
+    text-align: center;
+    background-image: radial-gradient(circle 759px at -6.7% 50%, rgb(246, 216, 174) 0%, rgb(204, 204, 160) 26.2%, rgb(189, 176, 134) 50.6%, rgb(148, 142, 95) 74.1%, rgb(152, 145, 110) 100.3%);
+    padding: 15px;
+    text-align: center;
+}
+
+.main {
+    background: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("../../../assets/house.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 82.5%;
+    backdrop-filter: blur(50px);
+}
+
+.product-info {
+    color: white;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.product-box {
+    color: black;
+    background: radial-gradient(circle 759px at -6.7% 50%, rgb(246, 216, 174) 0%, rgb(204, 204, 160) 26.2%, rgb(189, 176, 134) 50.6%, rgb(148, 142, 95) 74.1%, rgb(152, 145, 110) 100.3%);
+    height: 200px;
+    width: 250px;
+    transition: all .5s ease-in-out;
+    margin-top: 20%;
+}
+
+.product-box:hover {
+    transform: translateY(-10px);
+}
+
+.mat-icon {
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.boxes h5 {
+    margin-top: 13px;
+    font-size: 24px;
+    padding: 21px;
+}
+
+.product-info h2 {
+
+    text-align: center;
+    color: rgb(58, 199, 23);
+    padding: 58px;
+    font-size: 48px;
+}

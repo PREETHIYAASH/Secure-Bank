@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    background: radial-gradient(circle 759px at -6.7% 50%, rgb(246, 216, 174) 0%, rgb(204, 204, 160) 26.2%, rgb(189, 176, 134) 50.6%, rgb(148, 142, 95) 74.1%, rgb(152, 145, 110) 100.3%);
+    padding: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.outer-container{
+    background: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("../../../assets/aboutus.jpeg.crdownload");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 87.5%;
+    
+}
+
+.main .item {
+    background: radial-gradient(circle 759px at -6.7% 50%, rgb(246, 216, 174) 0%, rgb(204, 204, 160) 26.2%, rgb(189, 176, 134) 50.6%, rgb(148, 142, 95) 74.1%, rgb(152, 145, 110) 100.3%);
+    border: 1px solid ;
+    margin: 20px;
+    padding: 20px;
+}
+
+.icon-label .mat-icon {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.icon-label {
+    display: flex;
+}
+
+.icon-label {
+    width: 35px;
+    height: 35px;
+    background: rgb(148, 142, 95) 74.1%;
+    border-radius: 100%;
+}
+
+.icon-label div {
+    align-self: center;
+}
+
+h5 {
+    margin-left: 20px;
+    font-size: 20px;
+    min-width: 200px;
+}
+
+span {
+    margin-top: 32px;
+    display: block;
+}

@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  background: radial-gradient(circle 759px at -6.7% 50%, rgb(246, 216, 174) 0%, rgb(204, 204, 160) 26.2%, rgb(189, 176, 134) 50.6%, rgb(148, 142, 95) 74.1%, rgb(152, 145, 110) 100.3%);
+  padding: 15px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
+
+.user-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.main {
+  background: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("../../../../assets/clientdeposite.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}

@@ -1,0 +1,32 @@
+.main
+{
+    background-color: #f1f4e9;
+    align-items: center;
+    color: rgb(72, 16, 85);
+    font-size: 20px;
+    text-decoration-color: rgb(72, 16, 85);
+    font-weight: 500;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+}
+.main > .selected {
+    background: radial-gradient( circle 759px at -6.7% 50%, rgb(246, 216, 174) 0%, rgb(204, 204, 160) 26.2%, rgb(189, 176, 134) 50.6%, rgb(148, 142, 95) 74.1%, rgb(152, 145, 110) 100.3% );
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.main img {
+    height: 3em;
+    width: 200px;
+}
+.main div
+{
+    cursor: pointer;
+    height: 51px;
+}
+.sign-up{
+    color:blue;
+    cursor: pointer;
+}

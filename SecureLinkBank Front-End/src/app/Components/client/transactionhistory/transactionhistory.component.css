@@ -1,0 +1,36 @@
+.centeritem {
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    background: radial-gradient(circle 759px at -6.7% 50%, rgb(246, 216, 174) 0%, rgb(204, 204, 160) 26.2%, rgb(189, 176, 134) 50.6%, rgb(148, 142, 95) 74.1%, rgb(152, 145, 110) 100.3%);
+    padding: 15px;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 2px solid green;
+
+}
+
+.history-data {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    
+}
+
+button {
+    margin-top: 20px;
+}
+
+.outer-container{
+    background: linear-gradient(rgba(237, 239, 239, 0.984), rgba(0, 0, 0, .45)), url("../../../../assets/transactionhistory.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}

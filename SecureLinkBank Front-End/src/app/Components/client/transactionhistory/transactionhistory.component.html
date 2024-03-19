@@ -1,0 +1,31 @@
+<!-- <p>transactionhistory works!</p> -->
+
+<div class="outer-container">
+  <div>
+    <h1>Transaction History</h1>
+    <div >
+      <div class="history-data">
+        <table class="transaction-history-table">
+          <tr>
+            <th>ID</th>
+            <th>₹</th>
+            <th>Type</th>
+            <th>Timestamp</th>
+            <th>Remark</th>
+          </tr>
+          <tr *ngFor="let transaction of transactionHistory">
+            <td>{{ transaction.id }}</td>
+            <td>{{ transaction.amount }}</td>
+            <td>{{ transaction.type }}</td>
+            <td>{{ transaction.timestamp }}</td>
+            <td>{{transaction.remark }}</td>
+          </tr>
+        </table>
+      </div>
+      <div class="centeritem history-data">
+        <button type="button" class="btn btn-primary" style="margin-left: 10px;" (click)="download()">Download</button>
+        <button type="button" class="btn btn-primary" style="margin-left: 10px;" (click)="print()">print</button>
+      </div>
+    </div>
+  </div>
+</div>

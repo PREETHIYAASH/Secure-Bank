@@ -1,0 +1,30 @@
+<!-- <p>transferamount works!</p> -->
+
+<div class="main">
+  <h1>Online Transfer Amount</h1>
+  <div *ngIf="errorMessage && errorMessage !== ''" class="error" id="errordiv">
+    {{errorMessage}}
+  </div>
+  <div class="user-form">
+    <form>
+      <div class="form-group mx-1">
+        <label for="ownaccountNum">Account Number&nbsp;:&nbsp;</label>
+        <input type="text" id="ownaccountNum" name="ownaccountNum" [(ngModel)]="accountNum" disabled="">
+      </div>
+      <div class="form-group mx-1">
+        <label for="accountNumber">Recipient Account Number&nbsp;:&nbsp;</label>
+        <input type="text" id="accountNumber" name="accountNumber" [(ngModel)]="accountNum2" required>
+      </div>
+      <div class="form-group mx-1">
+        <label for="amount">Amount&nbsp;:&nbsp;</label>
+        <input type="text" id="amount" name="amount" [(ngModel)]="transferAmt" required>
+      </div>
+      <div class="form-group mx-1">
+        <label for="remakr">Remark&nbsp;:&nbsp;</label>
+        <input type="text" id="remark" name="remark" [(ngModel)]="remark">
+      </div>
+      <button type="button" class="btn btn-primary" style="margin-left: 10px;"
+        (click)="submitTransferForm()">Deposit</button>
+    </form>
+  </div>
+</div>

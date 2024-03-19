@@ -1,0 +1,23 @@
+.align-items-start {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.bank-logo {
+    text-align: center;
+    backdrop-filter: blur(50px);
+}
+
+.bank-logo h1 {
+    background: radial-gradient(circle 759px at -6.7% 50%, rgb(246, 216, 174) 0%, rgb(204, 204, 160) 26.2%, rgb(189, 176, 134) 50.6%, rgb(148, 142, 95) 74.1%, rgb(152, 145, 110) 100.3%);
+    padding: 15px;
+}
+.main{
+    background: linear-gradient(rgba(237, 239, 239, 0.984), rgba(0, 0, 0, .45)), url("../../../../assets/clienthome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.icon-label{
+    text-align: center;
+}

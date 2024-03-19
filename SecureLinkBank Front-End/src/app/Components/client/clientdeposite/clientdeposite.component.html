@@ -1,0 +1,25 @@
+<!-- <p>clientdeposite works!</p> -->
+
+<div class="main">
+  <h1>Online Deposit</h1>
+
+  <div *ngIf="errorMessage && errorMessage !== ''" class="error" id="errordiv">
+    {{errorMessage}}
+  </div>
+  <div class="dis">
+    <img #depositImage style="display: none;" src="assets/clientdeposite" alt="clientdeposite" width="200">
+  </div>
+  <div class="user-form">
+
+    <div class="form-row">
+      <div class="form-item">
+        <label for="amount">Amount&nbsp;:&nbsp;</label>
+        <input type="number" id="amount" name="amount" [(ngModel)]="depositA" required>
+      </div>
+    </div>
+    <div class="button-container">
+      <button type="button" class="btn btn-primary" style="margin-left: 10px;"
+        (click)="doTransaction()">Deposit</button>
+    </div>
+  </div>
+</div>
